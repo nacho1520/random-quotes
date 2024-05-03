@@ -7,10 +7,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: center;
   align-items: center;
   background-color: #111729;
   font-family: "Outfit", sans-serif;
+  padding-top: 240px;
+  overflow: hidden;
 }
 
 .quote-container {
@@ -63,6 +64,8 @@ body {
   border-radius: 12px;
 }
 .btns-container img {
+  width: 32px;
+  height: 32px;
   padding: 8px 12px 8px 12px;
 }
 
